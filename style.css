@@ -1,0 +1,154 @@
+body {
+    background: radial-gradient(circle at top, #0b2a66 0%, #061a3a 70%);
+    color: #e8e8ff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 420px;
+    margin: 40px auto;
+    background: rgba(22, 12, 60, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(123, 44, 255, 0.4);
+    padding: 32px 24px 24px 24px;
+    text-align: center;
+    backdrop-filter: blur(6px);
+}
+
+.privacy-container {
+    max-width: 650px;
+    background: rgba(22, 12, 60, 0.85);
+    border-radius: 20px;
+    padding: 36px 32px 32px 32px;
+    text-align: left;
+    box-shadow: 0 0 28px rgba(179, 122, 255, 0.35);
+}
+
+.privacy-container h1 {
+    font-size: 1.7rem;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #ff4df0;
+}
+
+.privacy-container h2,
+.privacy-container h3 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #b37aff;
+}
+
+.privacy-container h2 {
+    font-size: 1.15rem;
+}
+.privacy-container h3 {
+    font-size: 1.05rem;
+}
+
+.privacy-container p {
+    margin: 14px 0 16px 0;
+    line-height: 1.7;
+    color: #e9e4ff;
+}
+
+.privacy-container ul {
+    margin: 12px 0 18px 22px;
+    padding-left: 14px;
+}
+.privacy-container li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.privacy-container strong {
+    color: #fff;
+}
+
+.privacy-container .date,
+.privacy-container .dev-contact {
+    font-size: 0.99rem;
+    color: #d7cfff;
+    margin-bottom: 4px;
+}
+
+.privacy-container a {
+    color: #ffb300;
+    text-decoration: none;
+    font-weight: 600;
+}
+.privacy-container a:hover {
+    text-decoration: underline;
+    color: #ffdf70;
+}
+
+.app-icon {
+    display: block;
+    width: 88px;
+    height: 88px;
+    border-radius: 18px;
+    margin: 0 auto 18px auto;
+    box-shadow: 0 0 18px rgba(255, 77, 240, 0.5);
+}
+
+h1 {
+    font-size: 2.1rem;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.5px;
+    color: #ff4df0;
+}
+
+h2 {
+    font-size: 1.1rem;
+    color: #b37aff;
+    font-weight: 400;
+    margin: 0 0 18px 0;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 26px;
+    color: #e4dcff;
+}
+
+.developer-info {
+    font-size: 0.95rem;
+    color: #d7cfff;
+    margin-top: 18px;
+}
+
+.developer-info a {
+    color: #ffb300;
+}
+.developer-info a:hover {
+    color: #ffdf70;
+}
+
+@media (max-width: 700px) {
+    .privacy-container {
+        max-width: 99vw;
+        padding: 16px 4vw 18px 4vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 98vw;
+        padding: 16px 4vw 18px 4vw;
+    }
+    .app-icon {
+        width: 64px;
+        height: 64px;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .description {
+        font-size: 0.97rem;
+    }
+}
